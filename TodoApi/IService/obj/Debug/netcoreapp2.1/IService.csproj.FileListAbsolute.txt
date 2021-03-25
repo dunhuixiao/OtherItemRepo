@@ -1,0 +1,9 @@
+C:\Users\greed\source\repos\TodoApi\IService\bin\Debug\netcoreapp2.1\IService.deps.json
+C:\Users\greed\source\repos\TodoApi\IService\bin\Debug\netcoreapp2.1\IService.dll
+C:\Users\greed\source\repos\TodoApi\IService\bin\Debug\netcoreapp2.1\IService.pdb
+C:\Users\greed\source\repos\TodoApi\IService\obj\Debug\netcoreapp2.1\IService.csproj.CoreCompileInputs.cache
+C:\Users\greed\source\repos\TodoApi\IService\obj\Debug\netcoreapp2.1\IService.AssemblyInfoInputs.cache
+C:\Users\greed\source\repos\TodoApi\IService\obj\Debug\netcoreapp2.1\IService.AssemblyInfo.cs
+C:\Users\greed\source\repos\TodoApi\IService\obj\Debug\netcoreapp2.1\IService.dll
+C:\Users\greed\source\repos\TodoApi\IService\obj\Debug\netcoreapp2.1\IService.pdb
+C:\Users\greed\source\repos\TodoApi\IService\obj\Debug\netcoreapp2.1\IService.csprojAssemblyReference.cache

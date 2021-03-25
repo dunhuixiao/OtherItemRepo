@@ -1,0 +1,9 @@
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement\bin\GoodsManagement.IService.xml
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement\bin\GoodsManagement.IService.dll
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement\bin\GoodsManagement.IService.pdb
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.IService\bin\GoodsManagement.IService.xml
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.IService\bin\GoodsManagement.IService.dll
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.IService\bin\GoodsManagement.IService.pdb
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.IService\obj\Debug\GoodsManagement.IService.dll
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.IService\obj\Debug\GoodsManagement.IService.pdb
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.IService\obj\Debug\GoodsManagement.IService.csprojAssemblyReference.cache

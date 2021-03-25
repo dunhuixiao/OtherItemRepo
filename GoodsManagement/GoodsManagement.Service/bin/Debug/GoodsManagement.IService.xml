@@ -1,0 +1,562 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GoodsManagement.IService</name>
+    </assembly>
+    <members>
+        <member name="T:GoodsManagement.IService.CreateExamDto">
+            <summary>
+            创建考试dto
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.SchoolId">
+            <summary>
+            校区id
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.SchoolSemesterId">
+            <summary>
+            学期id
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.Name">
+            <summary>
+            考试名称
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.ExamTypeId">
+            <summary>
+            考试类型id
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.SubjectId">
+            <summary>
+            课程id
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.SubjectName">
+            <summary>
+            课程名称
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.SubjectEName">
+            <summary>
+            课程英文名称
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.BeginTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.EndTime">
+            <summary>
+            截止时间
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.PublishObjectType">
+            <summary>
+            发布对象类型【1：班级 2：学生】
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.TotalScore">
+            <summary>
+            总分 
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.IsInSubjectScore">
+            <summary>
+            是否计入课程成绩
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.IsPublish">
+            <summary>
+            是否发布
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.KnowledgePointIds">
+            <summary>
+            知识点ids
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.Class">
+            <summary>
+            班级ids
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.ClassStudents">
+            <summary>
+            学员ids
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.EvaluationProjectId">
+            <summary>
+            评定项目Id
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.OrgId">
+            <summary>
+            机构id
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateExamDto.OrgUserId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="T:GoodsManagement.IService.ExamStudentDto">
+            <summary>
+            考试对象dto
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.ExamStudentDto.OrgId">
+            <summary>
+            机构Id
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.ExamStudentDto.ExamId">
+            <summary>
+            考试Id
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.ExamStudentDto.ClassId">
+            <summary>
+            班级Id【发布对象类型选择学员，存储学员的行政班Id】
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.ExamStudentDto.ClassName">
+            <summary>
+            班级名称【发布对象类型选择学员，存储学员的行政班Id】
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.ExamStudentDto.ClassEName">
+            <summary>
+            班级英文名称【发布对象类型选择学员，存储学员的行政班Id】
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.ExamStudentDto.StudentInfoId">
+            <summary>
+            学员Id
+            </summary>
+        </member>
+        <member name="T:GoodsManagement.IService.ArrivalSourceTypes">
+            <summary>
+            进班类型
+            </summary>
+        </member>
+        <member name="F:GoodsManagement.IService.ArrivalSourceTypes.TeacherAdd">
+            <summary>
+            教师添加
+            </summary>
+        </member>
+        <member name="F:GoodsManagement.IService.ArrivalSourceTypes.StudentEnroll">
+            <summary>
+            学生报名
+            </summary>
+        </member>
+        <member name="T:GoodsManagement.IService.PublishObjectTypes">
+            <summary>
+            发布对象
+            </summary>
+        </member>
+        <member name="F:GoodsManagement.IService.PublishObjectTypes.Class">
+            <summary>
+            班级
+            </summary>
+        </member>
+        <member name="F:GoodsManagement.IService.PublishObjectTypes.Student">
+            <summary>
+            学生
+            </summary>
+        </member>
+        <member name="T:GoodsManagement.IService.SimpleStruct">
+            <summary>
+            简单数据结构，基础层，主要用于输出基础列表和继承
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.SimpleStruct.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.SimpleStruct.Name">
+            <summary>
+            名字
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.SimpleStruct.EName">
+            <summary>
+            英文名称
+            </summary>
+        </member>
+        <member name="T:GoodsManagement.IService.SimpleStudentClassDto">
+            <summary>
+            简单学生班级对应关系
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.SimpleStudentClassDto.StuId">
+            <summary>
+            学生id
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.SimpleStudentClassDto.ClassId">
+            <summary>
+            班级id
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.SimpleStudentClassDto.ClassCName">
+            <summary>
+            班级中文
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.SimpleStudentClassDto.ClassEName">
+            <summary>
+            班级英文
+            </summary>
+        </member>
+        <member name="T:GoodsManagement.IService.StudentInClassDto">
+            <summary>
+            学生班级信息
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.StudentInClassDto.Name">
+            <summary>
+            学生中文
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.StudentInClassDto.EName">
+            <summary>
+            学生英文
+            </summary>
+        </member>
+        <member name="T:GoodsManagement.IService.CreateGoodsTagDto">
+            <summary>
+            商品标签保存模型
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateGoodsTagDto.GoodsId">
+            <summary>
+            商品ID
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateGoodsTagDto.TagId">
+            <summary>
+            标签ID
+            </summary>
+        </member>
+        <member name="T:GoodsManagement.IService.GoodsDto">
+            <summary>
+            商品查询模型
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.GoodsDto.GoodsCode">
+            <summary>
+            商品编号
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.GoodsDto.GoodsName">
+            <summary>
+            商品名称
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.GoodsDto.GoodsPrice">
+            <summary>
+            商品价格
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.GoodsDto.GoodsRemark">
+            <summary>
+            商品备注
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.GoodsDto.GoodsPutawayState">
+            <summary>
+            商品上架状态
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.GoodsDto.CreateAt">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.GoodsDto.LastEditAt">
+            <summary>
+            最后修改时间
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.GoodsDto.TagName">
+            <summary>
+            标签名称
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.GoodsDto.Tags">
+            <summary>
+            商品标签
+            </summary>
+        </member>
+        <member name="T:GoodsManagement.IService.CreateGoodsDto">
+            <summary>
+            商品保存模型
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateGoodsDto.GoodsCode">
+            <summary>
+            商品编号
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateGoodsDto.GoodsName">
+            <summary>
+            商品名称
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateGoodsDto.GoodsPrice">
+            <summary>
+            商品价格
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateGoodsDto.GoodsRemark">
+            <summary>
+            商品备注
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateGoodsDto.TagsId">
+            <summary>
+            商品标签
+            </summary>
+        </member>
+        <member name="T:GoodsManagement.IService.QueryGoodsDto">
+            <summary>
+            分页及搜索模型
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.QueryGoodsDto.PageIndex">
+            <summary>
+            当前页码
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.QueryGoodsDto.PageSize">
+            <summary>
+            分页显示数量
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.QueryGoodsDto.Key">
+            <summary>
+            关键词
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.QueryGoodsDto.GoodsPutawayState">
+            <summary>
+            上架状态
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.QueryGoodsDto.TagId">
+            <summary>
+            商品标签
+            </summary>
+        </member>
+        <member name="T:GoodsManagement.IService.UpdateGoodsDto">
+            <summary>
+            商品更新模型
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.UpdateGoodsDto.Id">
+            <summary>
+            商品Id
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.UpdateGoodsDto.GoodsName">
+            <summary>
+            商品名称
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.UpdateGoodsDto.GoodsPrice">
+            <summary>
+            商品价格
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.UpdateGoodsDto.GoodsRemark">
+            <summary>
+            商品备注
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.UpdateGoodsDto.TagsId">
+            <summary>
+            商品标签
+            </summary>
+        </member>
+        <member name="T:GoodsManagement.IService.CreateTagDto">
+            <summary>
+            标签新增模型
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.CreateTagDto.TagName">
+            <summary>
+            标签名称
+            </summary>
+        </member>
+        <member name="T:GoodsManagement.IService.TagDto">
+            <summary>
+            标签列表模型
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.TagDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.TagDto.TagName">
+            <summary>
+            标签名称
+            </summary>
+        </member>
+        <member name="T:GoodsManagement.IService.UpdateTagDto">
+            <summary>
+            标签修改模型
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.UpdateTagDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:GoodsManagement.IService.UpdateTagDto.TagName">
+            <summary>
+            标签名称
+            </summary>
+        </member>
+        <member name="T:GoodsManagement.IService.GoodsPutawayTypes">
+            <summary>
+            上架类型
+            </summary>
+        </member>
+        <member name="F:GoodsManagement.IService.GoodsPutawayTypes.NotPutaway">
+            <summary>
+            未上架
+            </summary>
+        </member>
+        <member name="F:GoodsManagement.IService.GoodsPutawayTypes.Putaway">
+            <summary>
+            已上架
+            </summary>
+        </member>
+        <member name="F:GoodsManagement.IService.GoodsPutawayTypes.SoldOut">
+            <summary>
+            下架
+            </summary>
+        </member>
+        <member name="F:GoodsManagement.IService.Sexs.Unknown">
+            <summary>
+            未知
+            </summary>
+        </member>
+        <member name="F:GoodsManagement.IService.Sexs.Male">
+            <summary>
+            男
+            </summary>
+        </member>
+        <member name="F:GoodsManagement.IService.Sexs.Female">
+            <summary>
+            女
+            </summary>
+        </member>
+        <member name="T:GoodsManagement.IService.IExamService">
+            <summary>
+            考试接口
+            </summary>
+        </member>
+        <member name="M:GoodsManagement.IService.IExamService.Create(GoodsManagement.IService.CreateExamDto)">
+            <summary>
+            新增考试
+            </summary>
+            <param name="dto">考试新增模型</param>
+            <returns></returns>
+        </member>
+        <member name="T:GoodsManagement.IService.IGoodsService">
+            <summary>
+            商品接口
+            </summary>
+        </member>
+        <member name="M:GoodsManagement.IService.IGoodsService.Create(GoodsManagement.IService.CreateGoodsDto)">
+            <summary>
+            新增商品
+            </summary>
+            <param name="dto">新增商品模型</param>
+            <returns></returns>
+        </member>
+        <member name="M:GoodsManagement.IService.IGoodsService.Delete(System.Int32)">
+            <summary>
+            删除商品
+            </summary>
+            <param name="GoodsId">商品ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:GoodsManagement.IService.IGoodsService.Updete(GoodsManagement.IService.UpdateGoodsDto)">
+            <summary>
+            更新商品
+            </summary>
+            <param name="dto">商品更新模型</param>
+            <returns></returns>
+        </member>
+        <member name="M:GoodsManagement.IService.IGoodsService.GetList(GoodsManagement.IService.QueryGoodsDto)">
+            <summary>
+            获取商品列表
+            </summary>
+            <param name="dto">分页及搜索模型</param>
+            <returns></returns>
+        </member>
+        <member name="M:GoodsManagement.IService.IGoodsService.GetDetail(System.Int64)">
+            <summary>
+            获取商品详情
+            </summary>
+            <param name="GoodsId">商品ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:GoodsManagement.IService.IGoodsService.SetPutawayState(System.Int64,GoodsManagement.IService.GoodsPutawayTypes)">
+            <summary>
+            设置上架状态
+            </summary>
+            <param name="GoodsId">商品ID</param>
+            <param name="goodsPutawayTypes">商品上架状态</param>
+            <returns></returns>
+        </member>
+        <member name="T:GoodsManagement.IService.ITagService">
+            <summary>
+            标签接口
+            </summary>
+        </member>
+        <member name="M:GoodsManagement.IService.ITagService.Create(GoodsManagement.IService.CreateTagDto)">
+            <summary>
+            新增标签
+            </summary>
+            <param name="dto">新增标签模型</param>
+            <returns></returns>
+        </member>
+        <member name="M:GoodsManagement.IService.ITagService.Delete(System.Int32)">
+            <summary>
+            删除标签
+            </summary>
+            <param name="TagId">标签ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:GoodsManagement.IService.ITagService.Update(GoodsManagement.IService.UpdateTagDto)">
+            <summary>
+            修改标签
+            </summary>
+            <param name="dto">标签修改模型</param>
+            <returns></returns>
+        </member>
+        <member name="M:GoodsManagement.IService.ITagService.GetList">
+            <summary>
+            查询标签列表，也可作为下拉列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GoodsManagement.IService.ITagService.GetDetail(System.Int32)">
+            <summary>
+            查询标签详情
+            </summary>
+            <param name="TagId">标签ID</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TodoApi</name>
+    </assembly>
+    <members>
+        <member name="T:TodoApi.Controllers.TodoController">
+            <summary>
+            Todo
+            </summary>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.#ctor(IService.IService.ITodoService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="todoIService"></param>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.GetList">
+            <summary>
+            获取列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.GetDetail(System.Int64)">
+            <summary>
+            获取详情
+            </summary>
+            <param name="id">id</param>
+            <returns>代办项目详情</returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.Create(System.String)">
+            <summary>
+            新增
+            </summary>
+            <param name="value">todoValue</param>
+            <returns>true/false</returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.Update(IService.UpdateTodoDto)">
+            <summary>
+            更新
+            </summary>
+            <param name="dto">dto</param>
+            <returns>true/false</returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.Delete(System.Int32)">
+            <summary>
+            删除
+            </summary>
+            <param name="id">Id</param>
+            <returns>true/false</returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.Completed(System.Int64)">
+            <summary>
+            完成
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TodoApi.Model.Db">
+            <summary>
+            Db
+            </summary>
+        </member>
+        <member name="M:TodoApi.Model.Db.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{TodoApi.Model.Db})">
+            <summary>
+            构造函数
+            </summary>       
+        </member>
+        <member name="P:TodoApi.Model.Db.TodoRepos">
+            <summary>
+            待办事项
+            </summary>
+        </member>
+        <member name="T:TodoApi.Model.TodoRepo">
+            <summary>
+            代办项目
+            </summary>
+        </member>
+        <member name="P:TodoApi.Model.TodoRepo.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:TodoApi.Model.TodoRepo.Name">
+            <summary>
+            代办项目描述
+            </summary>
+        </member>
+        <member name="P:TodoApi.Model.TodoRepo.IsComplete">
+            <summary>
+            是否完成
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.Service\bin\Debug\GoodsManagement.Service.dll.config
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.Service\bin\Debug\GoodsManagement.Service.dll
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.Service\bin\Debug\GoodsManagement.Service.pdb
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.Service\bin\Debug\EntityFramework.dll
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.Service\bin\Debug\GoodsManagement.IService.dll
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.Service\bin\Debug\MySql.Data.dll
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.Service\bin\Debug\GoodsManagement.IService.pdb
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.Service\bin\Debug\GoodsManagement.IService.xml
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.Service\bin\Debug\EntityFramework.xml
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.Service\obj\Debug\GoodsManagement.Service.dll
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.Service\obj\Debug\GoodsManagement.Service.pdb
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.Service\obj\Debug\GoodsManagement.Service.csprojAssemblyReference.cache
+D:\Demo\C#Demo\GoodsManagement\GoodsManagement.Service\obj\Debug\GoodsManagement.Service.csproj.CopyComplete
