@@ -7,3 +7,16 @@ C:\Users\greed\source\repos\TodoApi\IService\obj\Debug\netcoreapp2.1\IService.As
 C:\Users\greed\source\repos\TodoApi\IService\obj\Debug\netcoreapp2.1\IService.dll
 C:\Users\greed\source\repos\TodoApi\IService\obj\Debug\netcoreapp2.1\IService.pdb
 C:\Users\greed\source\repos\TodoApi\IService\obj\Debug\netcoreapp2.1\IService.csprojAssemblyReference.cache
+D:\Demo\OtherItemRepo\TodoApi\IService\bin\Debug\netcoreapp2.1\IService.deps.json
+D:\Demo\OtherItemRepo\TodoApi\IService\bin\Debug\netcoreapp2.1\IService.dll
+D:\Demo\OtherItemRepo\TodoApi\IService\bin\Debug\netcoreapp2.1\IService.pdb
+D:\Demo\OtherItemRepo\TodoApi\IService\obj\Debug\netcoreapp2.1\IService.csprojAssemblyReference.cache
+D:\Demo\OtherItemRepo\TodoApi\IService\obj\Debug\netcoreapp2.1\IService.AssemblyInfoInputs.cache
+D:\Demo\OtherItemRepo\TodoApi\IService\obj\Debug\netcoreapp2.1\IService.AssemblyInfo.cs
+D:\Demo\OtherItemRepo\TodoApi\IService\obj\Debug\netcoreapp2.1\IService.csproj.CoreCompileInputs.cache
+D:\Demo\OtherItemRepo\TodoApi\IService\obj\Debug\netcoreapp2.1\IService.dll
+D:\Demo\OtherItemRepo\TodoApi\IService\obj\Debug\netcoreapp2.1\IService.pdb
+D:\Demo\OtherItemRepo\TodoApi\IService\bin\Debug\netcoreapp2.1\netcoreapp2.1\IService.deps.json
+D:\Demo\OtherItemRepo\TodoApi\IService\bin\Debug\netcoreapp2.1\netcoreapp2.1\IService.dll
+D:\Demo\OtherItemRepo\TodoApi\IService\bin\Debug\netcoreapp2.1\netcoreapp2.1\IService.pdb
+D:\Demo\OtherItemRepo\TodoApi\IService\bin\Debug\netcoreapp2.1\netcoreapp2.1\IService.xml

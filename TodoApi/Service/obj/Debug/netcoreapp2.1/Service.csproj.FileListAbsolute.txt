@@ -10,3 +10,15 @@ C:\Users\greed\source\repos\TodoApi\Service\bin\Debug\netcoreapp2.1\IService.pdb
 C:\Users\greed\source\repos\TodoApi\Service\obj\Debug\netcoreapp2.1\Service.csproj.CopyComplete
 C:\Users\greed\source\repos\TodoApi\Service\obj\Debug\netcoreapp2.1\Service.dll
 C:\Users\greed\source\repos\TodoApi\Service\obj\Debug\netcoreapp2.1\Service.pdb
+D:\Demo\OtherItemRepo\TodoApi\Service\bin\Debug\netcoreapp2.1\Service.deps.json
+D:\Demo\OtherItemRepo\TodoApi\Service\bin\Debug\netcoreapp2.1\Service.dll
+D:\Demo\OtherItemRepo\TodoApi\Service\bin\Debug\netcoreapp2.1\Service.pdb
+D:\Demo\OtherItemRepo\TodoApi\Service\bin\Debug\netcoreapp2.1\IService.dll
+D:\Demo\OtherItemRepo\TodoApi\Service\bin\Debug\netcoreapp2.1\IService.pdb
+D:\Demo\OtherItemRepo\TodoApi\Service\obj\Debug\netcoreapp2.1\Service.csprojAssemblyReference.cache
+D:\Demo\OtherItemRepo\TodoApi\Service\obj\Debug\netcoreapp2.1\Service.AssemblyInfoInputs.cache
+D:\Demo\OtherItemRepo\TodoApi\Service\obj\Debug\netcoreapp2.1\Service.AssemblyInfo.cs
+D:\Demo\OtherItemRepo\TodoApi\Service\obj\Debug\netcoreapp2.1\Service.csproj.CoreCompileInputs.cache
+D:\Demo\OtherItemRepo\TodoApi\Service\obj\Debug\netcoreapp2.1\Service.csproj.CopyComplete
+D:\Demo\OtherItemRepo\TodoApi\Service\obj\Debug\netcoreapp2.1\Service.dll
+D:\Demo\OtherItemRepo\TodoApi\Service\obj\Debug\netcoreapp2.1\Service.pdb

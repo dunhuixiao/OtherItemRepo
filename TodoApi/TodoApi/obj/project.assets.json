@@ -11793,17 +11793,17 @@
     ]
   },
   "packageFolders": {
-    "D:\\greed\\.nuget\\packages": {},
+    "C:\\Users\\greed\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Demo\\C#Demo\\TodoApi\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "D:\\Demo\\OtherItemRepo\\TodoApi\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "D:\\Demo\\C#Demo\\TodoApi\\TodoApi\\TodoApi.csproj",
-      "packagesPath": "D:\\greed\\.nuget\\packages",
-      "outputPath": "D:\\Demo\\C#Demo\\TodoApi\\TodoApi\\obj\\",
+      "projectPath": "D:\\Demo\\OtherItemRepo\\TodoApi\\TodoApi\\TodoApi.csproj",
+      "packagesPath": "C:\\Users\\greed\\.nuget\\packages\\",
+      "outputPath": "D:\\Demo\\OtherItemRepo\\TodoApi\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11822,12 +11822,13 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "projectReferences": {
-            "D:\\Demo\\C#Demo\\TodoApi\\IService\\IService.csproj": {
-              "projectPath": "D:\\Demo\\C#Demo\\TodoApi\\IService\\IService.csproj"
+            "D:\\Demo\\OtherItemRepo\\TodoApi\\IService\\IService.csproj": {
+              "projectPath": "D:\\Demo\\OtherItemRepo\\TodoApi\\IService\\IService.csproj"
             },
-            "D:\\Demo\\C#Demo\\TodoApi\\Service\\Service.csproj": {
-              "projectPath": "D:\\Demo\\C#Demo\\TodoApi\\Service\\Service.csproj"
+            "D:\\Demo\\OtherItemRepo\\TodoApi\\Service\\Service.csproj": {
+              "projectPath": "D:\\Demo\\OtherItemRepo\\TodoApi\\Service\\Service.csproj"
             }
           }
         }
@@ -11840,6 +11841,7 @@
     },
     "frameworks": {
       "netcoreapp2.1": {
+        "targetAlias": "netcoreapp2.1",
         "dependencies": {
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",

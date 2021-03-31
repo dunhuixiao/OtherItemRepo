@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IService</name>
+    </assembly>
+    <members>
+        <member name="P:IService.TodoListDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IService.TodoListDto.Name">
+            <summary>
+            代办项目描述
+            </summary>
+        </member>
+        <member name="P:IService.TodoListDto.Completed">
+            <summary>
+            是否完成
+            </summary>
+        </member>
+        <member name="T:IService.UpdateTodoDto">
+            <summary>
+            更新todoDto
+            </summary>
+        </member>
+        <member name="P:IService.UpdateTodoDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IService.UpdateTodoDto.Value">
+            <summary>
+            todoValue
+            </summary>
+        </member>
+        <member name="M:IService.IService.ITodoService.GetList">
+            <summary>
+            获取列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IService.IService.ITodoService.GetDetail(System.Int64)">
+            <summary>
+            获取详情
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IService.IService.ITodoService.Create(System.String)">
+            <summary>
+            新建
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IService.IService.ITodoService.Update(IService.UpdateTodoDto)">
+            <summary>
+            更新
+            </summary>
+            <param name="dto">更新todoDto</param>
+            <returns></returns>
+        </member>
+        <member name="M:IService.IService.ITodoService.Delete(System.Int64)">
+            <summary>
+            删除
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IService.IService.ITodoService.Completed(System.Int64)">
+            <summary>
+            完成
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

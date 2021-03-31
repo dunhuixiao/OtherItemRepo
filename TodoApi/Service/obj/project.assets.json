@@ -4167,17 +4167,17 @@
     ]
   },
   "packageFolders": {
-    "D:\\greed\\.nuget\\packages": {},
+    "C:\\Users\\greed\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Demo\\C#Demo\\TodoApi\\Service\\Service.csproj",
+      "projectUniqueName": "D:\\Demo\\OtherItemRepo\\TodoApi\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "D:\\Demo\\C#Demo\\TodoApi\\Service\\Service.csproj",
-      "packagesPath": "D:\\greed\\.nuget\\packages",
-      "outputPath": "D:\\Demo\\C#Demo\\TodoApi\\Service\\obj\\",
+      "projectPath": "D:\\Demo\\OtherItemRepo\\TodoApi\\Service\\Service.csproj",
+      "packagesPath": "C:\\Users\\greed\\.nuget\\packages\\",
+      "outputPath": "D:\\Demo\\OtherItemRepo\\TodoApi\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4196,9 +4196,10 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "projectReferences": {
-            "D:\\Demo\\C#Demo\\TodoApi\\IService\\IService.csproj": {
-              "projectPath": "D:\\Demo\\C#Demo\\TodoApi\\IService\\IService.csproj"
+            "D:\\Demo\\OtherItemRepo\\TodoApi\\IService\\IService.csproj": {
+              "projectPath": "D:\\Demo\\OtherItemRepo\\TodoApi\\IService\\IService.csproj"
             }
           }
         }
@@ -4211,6 +4212,7 @@
     },
     "frameworks": {
       "netcoreapp2.1": {
+        "targetAlias": "netcoreapp2.1",
         "dependencies": {
           "Microsoft.NETCore.App": {
             "suppressParent": "All",

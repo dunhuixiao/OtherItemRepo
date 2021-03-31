@@ -41,9 +41,11 @@ namespace TodoApi
             {
                 c.SwaggerDoc("v1", new Info { Title = "接口文档", Version = "v1" });
                 //添加读取注释服务
-                var basePath = PlatformServices.Default.Application.ApplicationBasePath;
+                var basePath = Path.GetDirectoryName(typeof(Program).Assembly.Location);//获取应用程序所在目录（绝对，不受工作目录影响，建议采用此方法获取路径）
                 var xmlPath = Path.Combine(basePath, "TodoApi.xml");
                 c.IncludeXmlComments(xmlPath);
+                var servicePath = Path.Combine(basePath, "IService.xml");
+                c.IncludeXmlComments(servicePath);
             });
 
             services.AddScoped<ITodoService,TodoService>();
