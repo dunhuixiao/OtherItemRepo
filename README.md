@@ -1,1 +1,1 @@
-# OtherItemRepo
+# other-item-repo
